@@ -8,7 +8,7 @@ import {BasicSongProps} from './song-props';
 
 export const ALLOWED_ORIGINS = [
   'https://cdpn.io',
-  'https://myjian.github.io',
+  'https://qwopqwop200.github.io',
   'http://localhost:8080',
 ];
 
