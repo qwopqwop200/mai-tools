@@ -13,6 +13,6 @@
     'use strict';
     const s = document.createElement('script');
     const cacheBuster = Math.floor(Date.now()/60000);
-    s.src = 'https://myjian.github.io/mai-tools/scripts/all-in-one.js?t=' + cacheBuster;
+    s.src = 'https://qwopqwop200.github.io/mai-tools/scripts/all-in-one.js?t=' + cacheBuster;
     document.body.append(s);
 })();
