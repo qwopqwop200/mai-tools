@@ -183,7 +183,7 @@ async function fetchJson(url: string) {
 }
 
 async function fetchChartLevelOverrides(gameVer: GameVersion) {
-  const url = getMaiToolsBaseUrl() + `/data/chart-levels/version21.json`;
+  const url = getMaiToolsBaseUrl() + `/data/chart-levels/version${gameVer}.json`;
   const data = await fetchJson(url);
   const output: Pick<SongProperties, 'name' | 'dx' | 'lv'>[] = [];
   ['standard', 'dx'].forEach((chartType, index) => {
